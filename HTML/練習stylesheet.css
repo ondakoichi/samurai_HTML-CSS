@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+ /* -------------------- side -------------------- */
+ #side {
+ 	 float: right;
+ 	 width: 30%;
+ 	 padding: 20px;
+ 	 background-color: #F99;
+ }
+ #side .box {
+ 	 margin: 0 auto 30px auto;
+ 	 padding: 0 0 20px 0;
+ 	 background: url(images/side_box.png) bottom no-repeat;
+ }
+ #side .box h2 {
+ 	 margin: 0;
+ 	 padding: 8px;
+ 	 text-align: center;
+ 	 color: #fff;
+ 	 font-size: 16px;
+ 	 line-height: 16px;
+ 	 font-weight: normal;
+ 	 background: url(images/side_box_h2.png) center no-repeat;
+ }
+ #side .box .boxBody {
+ 	 padding: 8px;
+ 	 border-right: solid 1px #C36;
+ 	 border-bottom: solid 1px #C36;
+ 	 border-left: solid 1px #C36;
+ 	 background: #fff;
+ }
+ #side .box .boxBody ul {
+ 	 margin: 0 0 16px 0;
+ 	 padding: 0;
+ }
+ #side .box .boxBody ul li {
+ 	 padding: 8px 0 8px 4px;
+ 	 list-style: none;
+ 	 border-bottom: solid 1px #C36;
+ }
